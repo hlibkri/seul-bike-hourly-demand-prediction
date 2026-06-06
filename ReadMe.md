@@ -50,10 +50,21 @@ The two target variables are mutually exclusive across task datasets: the regres
 Category, and the classification files do not contain Rented Bike Count
 
 ### Dataset Characteristics
-• Type: Multivariate time-series regression dataset
-• Data Quality: The dataset has been intentionally modified to reflect realistic imperfections commonly
-found in real-world data.
-• Missing Values: Present in select features
-
+- Type: Multivariate time-series regression dataset
+- Data Quality: The dataset has been intentionally modified to reflect realistic imperfections commonly found in real-world data.
+-  Missing Values: Present in select features
+---
+## Installation guide
+Install required packages:
+```
+pip install -r requirements.txt
+```
+In the root folder create file "kaggle_token.json" with kaggle account api token: **Example**
+```
+{
+    "username" : "hlibkriukov",
+    "key"  : "******"
+}
+```
 ---
 # Project developed during participation in core lecture Machine Learning
